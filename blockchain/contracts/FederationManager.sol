@@ -21,7 +21,7 @@ contract FederationManager is Ownable {
     mapping(string => Task) public tasks;
 
     // 这里的 Ownable(msg.sender) 是修复关键
-    constructor(address _tokenAddress) Ownable(msg.sender) {
+    constructor(address payable _tokenAddress) Ownable(msg.sender) {
         token = HyperCoin(_tokenAddress);
     }
 

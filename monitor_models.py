@@ -18,8 +18,6 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 class ModelUpdateHandler(FileSystemEventHandler):
-    """同时处理文件夹创建和文件修改的处理器"""
-    
     def on_created(self, event):
         """逻辑1：保留原有功能 - 监听新文件夹创建"""
         if event.is_directory:

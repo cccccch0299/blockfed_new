@@ -45,20 +45,14 @@
     },
     "4": {
       "user_id": 4,
-      "user_name": "user_4",
+      "user_name": "test",
       "virtual_coins": 100,
       "assigned_data_indices": [
-        232,
-        350,
-        208,
-        281,
-        467,
-        124,
-        491,
-        351,
-        280
+        185,
+        36,
+        380
       ],
-      "data_block_count": 9
+      "data_block_count": 3
     },
     "5": {
       "user_id": 5,
